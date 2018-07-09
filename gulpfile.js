@@ -144,7 +144,7 @@ gulp.task('serve', ['html', 'sass', 'scripts'], function() {
             server: {
                 baseDir: APP_PATHS.root
             },
-            open: false
+            open: true
         }
     )
 })
