@@ -1,0 +1,44 @@
+$white:     #FFFFFF;
+$blue:      #0076A3;
+$dark-blue: darken($blue, 10);
+$yellow:    #FFBA00;
+$green:     #548c27;
+$red:       #fe2d28;
+$black:     #000000;
+
+$bg-color: $white;
+$text-color: $black;
+
+$paragraph-font-size: 1.2rem;
+
+$heading-color: $yellow;
+
+$nav-bg-color: $dark-blue;
+$menu-anchor-font-size: 1.4rem;
+
+$heading-font-size: (
+    h1: 40px,
+    h2: 36px,
+    h3: 32px,
+    h4: 28px,
+    h5: 24px,
+    h6: 20px
+);
+
+$breakpoints: (
+    phone: 600px,
+    tablet: 900px,
+    desktop: 1200px,
+    big-desktop: 1800px,
+);
+
+body {
+    background-color: $bg-color;
+
+    &_container {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        overflow-y: auto;
+    }
+}

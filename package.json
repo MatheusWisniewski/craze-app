@@ -1,0 +1,45 @@
+{
+  "name": "craze-app-landing-page",
+  "version": "1.0.0",
+  "description": "Craze App Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusWisniewski/craze-app-landing-page.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Git",
+    "Gulp"
+  ],
+  "author": "Matheus Wisniewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusWisniewski/craze-app-landing-page/issues"
+  },
+  "homepage": "https://github.com/MatheusWisniewski/craze-app-landing-page#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.23.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject-partials": "^1.0.3",
+    "gulp-minify": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "merge-stream": "^1.0.1",
+    "mustache": "^2.3.0"
+  }
+}

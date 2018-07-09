@@ -1,0 +1,21 @@
+@import 'main';
+
+@mixin for-phone-only {
+    @media (max-width: calc(map-get($breakpoints, phone)-1px)) { @content; }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: map-get($breakpoints, phone)) { @content; }
+}
+
+@mixin for-tablet-landscape-up {
+    @media (min-width: map-get($breakpoints, tablet)) { @content; }
+}
+
+@mixin for-desktop-up {
+    @media (min-width: map-get($breakpoints, desktop)) { @content; }
+}
+
+@mixin for-big-desktop-up {
+    @media (min-width: map-get($breakpoints, big-desktop)) { @content; }
+}
