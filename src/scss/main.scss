@@ -26,8 +26,9 @@ $heading-font-size: (
 );
 
 $breakpoints: (
-    phone: 600px,
-    tablet: 900px,
+    phone: 599px,
+    tablet-portrait: 600px,
+    tablet-landscape: 900px,
     desktop: 1200px,
     big-desktop: 1800px,
 );

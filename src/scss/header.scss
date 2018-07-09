@@ -42,7 +42,7 @@
         margin-top: 1.5em;
 
         @include for-phone-only {
-            margin: 1.5em auto;
+            text-align: center;
         }
     }
 
