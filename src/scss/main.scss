@@ -1,9 +1,6 @@
 $white:     #FFFFFF;
-$blue:      #0076A3;
-$dark-blue: darken($blue, 10);
-$yellow:    #FFBA00;
-$green:     #548c27;
-$red:       #fe2d28;
+$blue:      rgb(13, 116, 185);
+$lightblue: rgb(52, 152, 219);
 $black:     #000000;
 $lightgray: rgb(235, 235, 235);
 
@@ -11,20 +8,6 @@ $bg-color: $white;
 $text-color: $black;
 
 $paragraph-font-size: 1.2rem;
-
-$heading-color: $yellow;
-
-$nav-bg-color: $dark-blue;
-$menu-anchor-font-size: 1.4rem;
-
-$heading-font-size: (
-    h1: 40px,
-    h2: 36px,
-    h3: 32px,
-    h4: 28px,
-    h5: 24px,
-    h6: 20px
-);
 
 $breakpoints: (
     xs-max: 767px,
