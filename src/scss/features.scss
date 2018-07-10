@@ -25,7 +25,7 @@
     }
 
     &_description {
-        font-size: 16px;
+        font-size: 18px;
         font-family: "HelveticaNeue";
         color: rgb(132, 132, 132);
         line-height: 1.625;
@@ -34,14 +34,14 @@
     }
 
     &_lower-wrapper {
-        padding: 0.5em 4em 0 4em;
+        padding: 0.5em 4em 2.5em 4em;
 
         @include for-sm-up {
-            padding: 1em 4em 0 4em;
+            padding: 1em 4em 3em 4em;
         }
 
         @include for-md-up {
-            padding: 1.5em 6em 0 6em;
+            padding: 1.5em 6em 4em 6em;
         }
     }
 
@@ -95,7 +95,7 @@
     }
 
     &_icon-description {
-        font-size: 16px;
+        font-size: 18px;
         font-family: "HelveticaNeue";
         color: rgb(132, 132, 132);
         line-height: 1.625;
