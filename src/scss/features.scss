@@ -52,7 +52,7 @@
         padding: 30px 30px 50px 30px;
 
         &:hover {
-            background-color: lightgray;
+            background-color: $lightgray;
         }
     }
 
@@ -116,7 +116,7 @@
             bottom  : 0;
             height  : 1px;
             width   : 80%;
-            border-bottom: 1px solid lightgray;
+            border-bottom: 1px solid $lightgray;
         }
 
         &:before {
@@ -127,7 +127,7 @@
                 right  : 0;
                 height  : 1px;
                 height   : 80%;
-                border-right: 1px solid lightgray;
+                border-right: 1px solid $lightgray;
             }
         }
     }
@@ -140,7 +140,7 @@
             bottom  : 0;
             height  : 1px;
             width   : 80%;
-            border-bottom: 1px solid lightgray;
+            border-bottom: 1px solid $lightgray;
         }
 
         &:before {
@@ -151,7 +151,7 @@
                 right  : 0;
                 height  : 1px;
                 height   : 80%;
-                border-right: 1px solid lightgray;
+                border-right: 1px solid $lightgray;
             }
         }
     }
@@ -164,7 +164,7 @@
             bottom  : 0;
             height  : 1px;
             width   : 80%;
-            border-bottom: 1px solid lightgray;
+            border-bottom: 1px solid $lightgray;
         }
 
         &:before {
@@ -175,7 +175,7 @@
                 right  : 0;
                 height  : 1px;
                 height   : 80%;
-                border-right: 1px solid lightgray;
+                border-right: 1px solid $lightgray;
             }
 
             @include for-md-up {
@@ -192,7 +192,7 @@
             bottom  : 0;
             height  : 1px;
             width   : 80%;
-            border-bottom: 1px solid lightgray;
+            border-bottom: 1px solid $lightgray;
             
             @include for-md-up {
                 border-bottom: 0;
@@ -207,7 +207,7 @@
                 right  : 0;
                 height  : 1px;
                 height   : 80%;
-                border-right: 1px solid lightgray;
+                border-right: 1px solid $lightgray;
             }
         }
     }
@@ -221,7 +221,7 @@
                 bottom  : 0;
                 height  : 1px;
                 width   : 80%;
-                border-bottom: 1px solid lightgray;
+                border-bottom: 1px solid $lightgray;
             }
         }
 
@@ -233,7 +233,7 @@
                 right  : 0;
                 height  : 1px;
                 height   : 80%;
-                border-right: 1px solid lightgray;
+                border-right: 1px solid $lightgray;
             }
         }
     }
