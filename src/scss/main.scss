@@ -26,11 +26,10 @@ $heading-font-size: (
 );
 
 $breakpoints: (
-    phone: 599px,
-    tablet-portrait: 600px,
-    tablet-landscape: 900px,
-    desktop: 1200px,
-    big-desktop: 1800px,
+    xs-max: 767px,
+    sm-min: 768px,
+    md-min: 992px,
+    lg-min: 1200px
 );
 
 body {

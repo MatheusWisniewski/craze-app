@@ -8,14 +8,14 @@
     }
 
     &_container {
-        padding: 1em 1.5em 0 1.5em;
+        padding: 1em 3em 0 3em;
 
-        @include for-tablet-portrait-up {
+        @include for-sm-up {
             padding: 1.5em 4em 0 4em;
         }
 
-        @include for-desktop-up {
-            padding: 4em 11.25em 0 11.25em;
+        @include for-md-up {
+            padding: 4em 10em 0 10em;
         }
     }
 
@@ -41,7 +41,7 @@
     &_icons-wrapper {
         margin-top: 1.5em;
 
-        @include for-phone-only {
+        @include for-xs-only {
             text-align: center;
         }
     }

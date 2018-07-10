@@ -1,0 +1,241 @@
+@import 'mixins';
+
+.features {
+
+    &_upper-wrapper {
+        
+        padding: 2.5em 3em 0 3em;
+
+        @include for-sm-up {
+            padding: 3em 4em 0 4em;
+        }
+
+        @include for-md-up {
+            padding: 4em 8em 0 8em;
+        }
+    }
+
+    &_title {
+        font-size: 30px;
+        font-family: "Myriad Pro";
+        color: rgb(34, 34, 34);
+        line-height: 0.6;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    &_description {
+        font-size: 16px;
+        font-family: "HelveticaNeue";
+        color: rgb(132, 132, 132);
+        line-height: 1.625;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    &_lower-wrapper {
+        padding: 0.5em 4em 0 4em;
+
+        @include for-sm-up {
+            padding: 1em 4em 0 4em;
+        }
+
+        @include for-md-up {
+            padding: 1.5em 6em 0 6em;
+        }
+    }
+
+    &_icon-wrapper {
+        
+        background-color: white;
+        cursor: pointer;
+        padding: 30px 30px 50px 30px;
+
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+
+    &_icon {
+        width: 48px;
+        height: 48px;
+        margin: 30px auto;
+    }
+
+    &_monitor {
+        background: url("../img/monitor.png") no-repeat;
+    }
+
+    &_target {
+        background: url("../img/target.png") no-repeat;
+    }
+
+    &_picture {
+        background: url("../img/picture.png") no-repeat;
+    }
+
+    &_palette {
+        background: url("../img/palette.png") no-repeat;
+    }
+
+    &_user {
+        background: url("../img/user.png") no-repeat;
+    }
+
+    &_gear {
+        background: url("../img/gear.png") no-repeat;
+    }
+
+    &_icon-title {
+        font-size: 24px;
+        font-family: "Myriad Pro";
+        color: rgb(34, 34, 34);
+        line-height: 0.75;
+        text-align: center;
+    }
+
+    &_icon-description {
+        font-size: 16px;
+        font-family: "HelveticaNeue";
+        color: rgb(132, 132, 132);
+        line-height: 1.625;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    &_col {
+        margin: 0;
+        padding: 0;
+    }
+
+    &_1 {
+        &:after {
+            content : "";
+            position: absolute;
+            left    : 10%;
+            bottom  : 0;
+            height  : 1px;
+            width   : 80%;
+            border-bottom: 1px solid lightgray;
+        }
+
+        &:before {
+            @include for-sm-up {
+                content : "";
+                position: absolute;
+                top    : 10%;
+                right  : 0;
+                height  : 1px;
+                height   : 80%;
+                border-right: 1px solid lightgray;
+            }
+        }
+    }
+
+    &_2 {
+        &:after {
+            content : "";
+            position: absolute;
+            left    : 10%;
+            bottom  : 0;
+            height  : 1px;
+            width   : 80%;
+            border-bottom: 1px solid lightgray;
+        }
+
+        &:before {
+            @include for-md-up {
+                content : "";
+                position: absolute;
+                top    : 10%;
+                right  : 0;
+                height  : 1px;
+                height   : 80%;
+                border-right: 1px solid lightgray;
+            }
+        }
+    }
+
+    &_3 {
+        &:after {
+            content : "";
+            position: absolute;
+            left    : 10%;
+            bottom  : 0;
+            height  : 1px;
+            width   : 80%;
+            border-bottom: 1px solid lightgray;
+        }
+
+        &:before {
+            @include for-sm-up {
+                content : "";
+                position: absolute;
+                top    : 10%;
+                right  : 0;
+                height  : 1px;
+                height   : 80%;
+                border-right: 1px solid lightgray;
+            }
+
+            @include for-md-up {
+                border-right: 0;
+            }
+        }
+    }
+
+    &_4 {
+        &:after {
+            content : "";
+            position: absolute;
+            left    : 10%;
+            bottom  : 0;
+            height  : 1px;
+            width   : 80%;
+            border-bottom: 1px solid lightgray;
+            
+            @include for-md-up {
+                border-bottom: 0;
+            }
+        }
+
+        &:before {
+            @include for-md-up {
+                content : "";
+                position: absolute;
+                top    : 10%;
+                right  : 0;
+                height  : 1px;
+                height   : 80%;
+                border-right: 1px solid lightgray;
+            }
+        }
+    }
+
+    &_5 {
+        &:after {
+            @include for-xs-only {
+                content : "";
+                position: absolute;
+                left    : 10%;
+                bottom  : 0;
+                height  : 1px;
+                width   : 80%;
+                border-bottom: 1px solid lightgray;
+            }
+        }
+
+        &:before {
+            @include for-sm-up {
+                content : "";
+                position: absolute;
+                top    : 10%;
+                right  : 0;
+                height  : 1px;
+                height   : 80%;
+                border-right: 1px solid lightgray;
+            }
+        }
+    }
+}
+  
