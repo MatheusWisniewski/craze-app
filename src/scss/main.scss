@@ -1,8 +1,12 @@
 $white:     #FFFFFF;
 $blue:      rgb(13, 116, 185);
 $lightblue: rgb(52, 152, 219);
+$darkblue:  darken($blue, 5%);
+$darkestblue:  darken($darkblue, 5%);
 $black:     #000000;
 $lightgray: rgb(235, 235, 235);
+$gray:        rgb(200, 200, 200);
+$darkgray:    rgb(132, 132, 132);
 
 $bg-color: $white;
 $text-color: $black;

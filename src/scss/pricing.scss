@@ -1,0 +1,180 @@
+@import 'mixins';
+
+.pricing {
+    &_container {
+        padding: 2em 2em 0 2em;
+        background-color: $lightgray;
+        width: 100%;
+        height: auto;
+
+        @include for-sm-up {
+            padding: 2em 3em 0 3em;
+        }
+
+        @include for-md-up {
+            padding: 3em 4em 0 4em;
+        }
+
+        @include for-lg-up {
+            padding: 3em 5em 0 5em;
+        }
+    }
+
+    &_title {
+        font-size: 30px;
+        font-family: "Myriad Pro";
+        color: rgb(0, 0, 0);
+        line-height: 0.8;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    &_description {
+        font-size: 18px;
+        font-family: "HelveticaNeue";
+        color: rgb(132, 132, 132);
+        line-height: 1.625;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0 2em;
+
+        @include for-sm-up {
+            padding: 0 6em;
+        }
+
+        @include for-md-up {
+            padding: 0 8em;
+        }
+
+        @include for-lg-up {
+            padding: 0 12em;
+        }
+    } 
+
+    &_prices-wrapper {
+        margin-top: -20px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+
+        @include for-md-up {
+            margin-top: -40px;
+        }
+    }
+
+    &_card {
+        width: 300px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    &_card-deluxe {
+        @include for-sm-up {
+            position: relative;
+            top: 30px;
+        }
+    }
+
+    &_header {
+        font-size: 28px;
+        font-family: "Myriad Pro";
+        color: $white;
+        line-height: 55px;
+        height: 55px;
+        text-align: center;
+        font-weight: bold;
+        background-color: $lightblue;
+    }
+
+    &_body {
+        background-color: $white;
+        position: relative;
+    }
+
+    &_price {
+        margin: 0 auto;
+        text-align: center;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    &_price-col {
+        padding: 0;
+        margin: 0;
+    }
+
+    &_price-big {
+        font-size: 42px;
+        font-family: "Novecentowide DemiBold";
+        color: rgb(34, 34, 34);
+        font-weight: bold;
+        line-height: 50px;
+        text-align: right;
+        position: relative;
+        left: 15px;
+    }
+
+    &_price-small {
+        font-size: 24px;
+        font-family: "Novecentowide DemiBold";
+        color: rgb(34, 34, 34);
+        font-weight: bold;
+        position: relative;
+        top: 10px;
+        left: 15px;
+        text-align: left;
+    }
+      
+    &_feature-wrapper {
+        position: relative;
+    }
+
+    &_feature {
+        height: 50px;
+        line-height: 48px;
+        font-size: 16px;
+        font-family: "HelveticaNeue";
+        color: $darkgray;
+
+        &::before {
+            content : "";
+            position: absolute;
+            left    : 10%;
+            top     : 0;
+            height  : 10px;
+            width   : 80%;
+            border-top: 1px solid $gray;
+        }
+    } 
+
+    &_footer {
+        height: 72px;
+        text-align: center;
+        font-weight: bold;
+        background-color: $lightblue;
+    }
+      
+    &_purchase-button {
+        color: $white;
+        background-color: $blue;
+        font-size: 15px;
+        font-family: "Myriad Pro";
+        color: $white;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        height: 35px;
+        width: 120px;
+        position: relative;
+        top: 18px;
+
+        &:hover {
+            background-color: $darkblue;
+        }
+
+        &:active {
+            background-color: $darkestblue;
+        }
+    }
+}
+  
