@@ -6,15 +6,11 @@
         padding: 7em 2em 2em 2em;
 
         @include for-sm-up {
-            padding: 10em 3em 2em 3em;
+            padding: 8em 3em 2em 3em;
         }
 
         @include for-md-up {
-            padding: 10em 20% 5em 20%;
-        }
-
-        @include for-lg-up {
-            padding: 10em 20% 5em 20%;
+            padding: 8em 4em 5em 4em;
         }
     }
 
@@ -107,7 +103,7 @@
     }
 
     &_youtube{
-        background: url("../img/youtube.svg") no-repeat top left;
+        background: url("../img/youtube.png") no-repeat top left;
         background-size: contain;
         cursor: pointer;
         display: inline-block;

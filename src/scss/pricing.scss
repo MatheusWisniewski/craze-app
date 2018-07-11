@@ -2,21 +2,21 @@
 
 .pricing {
     &_container {
-        padding: 2em 2em 0 2em;
+        padding: 2em 1em 0 1em;
         background-color: $lightgray;
         width: 100%;
         height: auto;
 
         @include for-sm-up {
-            padding: 2em 3em 0 3em;
+            padding: 2em 2em 0 2em;
         }
 
         @include for-md-up {
-            padding: 3em 4em 0 4em;
+            padding: 3em 2em 0 2em;
         }
 
         @include for-lg-up {
-            padding: 3em 5em 0 5em;
+            padding: 3em 4em 0 4em;
         }
     }
 
@@ -63,7 +63,7 @@
     }
 
     &_card {
-        width: 300px;
+        width: 260px;
         display: inline-block;
         margin-bottom: 10px;
     }
