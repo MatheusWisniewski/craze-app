@@ -158,6 +158,7 @@ gulp.task('watch', ['serve', 'move-fonts', 'images'], function() {
             'sass'
         ]
     );
+
     gulp.watch(
         [
             SOURCE_PATHS.htmlSource,
@@ -167,6 +168,7 @@ gulp.task('watch', ['serve', 'move-fonts', 'images'], function() {
             'html'
         ]
     );
+
     gulp.watch(
         [
             SOURCE_PATHS.jsSource
@@ -174,7 +176,8 @@ gulp.task('watch', ['serve', 'move-fonts', 'images'], function() {
         [
             'scripts'
         ]
-    );
+    ).on('change', browserSync.reload);
+
     gulp.watch(
         [
             SOURCE_PATHS.imgSource
@@ -182,7 +185,7 @@ gulp.task('watch', ['serve', 'move-fonts', 'images'], function() {
         [
             'images'
         ]
-    );
+    ).on('change', browserSync.reload);;
 })
 
 gulp.task('default', ['watch']);
