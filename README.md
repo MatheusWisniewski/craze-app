@@ -1,4 +1,4 @@
-# craze-app-landing-page
+# Craze App Landing Page
 Simple landing page made with NPM, Gulp, SASS &amp; more
 
 # Install Instructions
